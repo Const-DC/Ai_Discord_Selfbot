@@ -96,9 +96,8 @@ http://localhost:11434/api/generate
 
 ```
 discord-selfbot-ollama/
-├── selfbot.py          # Main bot script
-├── config.py           # Configuration file
-├── requirements.txt    # Python dependencies
+├── main.py            # Main bot script
+├── demo.py            # demo file
 ├── README.md          # This file
 └── .gitignore         # Git ignore file
 ```
