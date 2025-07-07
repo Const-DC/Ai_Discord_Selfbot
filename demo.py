@@ -26,7 +26,7 @@ def query_ollama(message_content):
         """
 
         response = requests.post(
-            "http://localhost:11434/api/generate",
+            "http://localhost:..../api/generate",
             json={
                 "model": "phi3:mini",
                 "prompt": prompt,
@@ -41,7 +41,7 @@ def query_ollama(message_content):
         return reply.split("\n")[0][:80]
 
     except Exception as e:
-        print("❌ Ollama error:", e)
+        print("Ollama error:", e)
         return "sorry. brain dead rn."
 
 
