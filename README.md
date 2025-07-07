@@ -55,7 +55,7 @@ ollama serve
 ```python
 DISCORD_TOKEN = "your_discord_token_here"
 OLLAMA_MODEL = "phi3:mini"
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "http://localhost:..../api/generate"
 WHITELIST_USERS = []  # List of user IDs, leave empty to only respond to mentions
 ```
 
